@@ -1,11 +1,17 @@
 package org.fasttrackit;
 
-public class Dog {
-    String name;
-    double age;
-    String healthCondition;
-    String race;
-    String height;
-    String weight;
-    String color;
+public class Dog extends Animal {
+
+    boolean leash;
+
+
+    public  Dog (DogFood dogFood) {
+
+
+
+}
+
+    public Dog() {
+
+    }
 }

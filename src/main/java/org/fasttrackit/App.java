@@ -13,11 +13,12 @@ public class App {
 
 
         Dog dog1 = new Dog();
-        dog1.name = "Rex";
-        dog1.age = 2;
-        dog1.healthCondition = "healthy";
-        dog1.height = "medium";
-        dog1.race = "Beagle";
+        dog1.SetName("Rex");
+        dog1.leash = true;
+        dog1.setAge(2.00);
+        dog1.SetHealthCondition("healthy");
+        dog1.SetHeight("medium");
+        dog1.setRace("Beagle");
 
         DogFood dogfood1 = new DogFood();
         dogfood1.price = 12;
@@ -27,11 +28,12 @@ public class App {
 
 
         Dog dog2 = new Dog();
-        dog2.name = "No name";
-        dog2.age = 12;
-        dog2.healthCondition = "";
-        dog2.height = "tal";
-        dog2.race = "Bulldog";
+        dog2.leash = false;
+        dog2.setName("No name");
+        dog2.setAge(12);
+        dog2.SetHealthCondition("broken leg");
+        dog2.SetHeight("tall");
+        dog2.setRace("Bulldog");
 
 
     }

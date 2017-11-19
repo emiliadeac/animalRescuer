@@ -1,9 +1,8 @@
 package org.fasttrackit;
 
-public class Vet {
+public class Vet extends VeterinaryClinic {
     String name;
     String specialization;
-    String schedule;
     String trataments;
 
     }
